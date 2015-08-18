@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-cd spec/controllers
-go test -v -coverpkg github.com/grsmv/gorilla-example/app/controllers -cover -coverprofile=cover.out
-go tool cover -html=cover.out
-rm cover.out
